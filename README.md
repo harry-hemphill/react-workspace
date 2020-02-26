@@ -1,3 +1,4 @@
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -82,6 +83,77 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - [Deployment](#deployment)
   - [Static Server](#static-server)
   - [Other Solutions](#other-solutions)
+72
+  - [Debugging Tests in Chrome](#debugging-tests-in-chrome)
+73
+  - [Debugging Tests in Visual Studio Code](#debugging-tests-in-visual-studio-code)
+74
+- [Developing Components in Isolation](#developing-components-in-isolation)
+75
+  - [Getting Started with Storybook](#getting-started-with-storybook)
+76
+  - [Getting Started with Styleguidist](#getting-started-with-styleguidist)
+77
+- [Publishing Components to npm](#publishing-components-to-npm)
+78
+- [Making a Progressive Web App](#making-a-progressive-web-app)
+79
+  - [Opting Out of Caching](#opting-out-of-caching)
+80
+  - [Offline-First Considerations](#offline-first-considerations)
+81
+  - [Progressive Web App Metadata](#progressive-web-app-metadata)
+82
+- [Analyzing the Bundle Size](#analyzing-the-bundle-size)
+83
+- [Deployment](#deployment)
+84
+  - [Static Server](#static-server)
+85
+  - [Other Solutions](#other-solutions)
+86
+  - [Serving Apps with Client-Side Routing](#serving-apps-with-client-side-routing)
+87
+  - [Building for Relative Paths](#building-for-relative-paths)
+88
+  - [Azure](#azure)
+89
+  - [Firebase](#firebase)
+90
+  - [GitHub Pages](#github-pages)
+91
+  - [Heroku](#heroku)
+92
+  - [Netlify](#netlify)
+93
+  - [Now](#now)
+94
+  - [S3 and CloudFront](#s3-and-cloudfront)
+95
+  - [Surge](#surge)
+96
+- [Advanced Configuration](#advanced-configuration)
+97
+- [Troubleshooting](#troubleshooting)
+98
+  - [`npm start` doesn’t detect changes](#npm-start-doesnt-detect-changes)
+99
+  - [`npm test` hangs on macOS Sierra](#npm-test-hangs-on-macos-sierra)
+100
+  - [`npm run build` exits too early](#npm-run-build-exits-too-early)
+101
+  - [`npm run build` fails on Heroku](#npm-run-build-fails-on-heroku)
+102
+  - [`npm run build` fails to minify](#npm-run-build-fails-to-minify)
+103
+  - [Moment.js locales are missing](#momentjs-locales-are-missing)
+104
+- [Alternatives to Ejecting](#alternatives-to-ejecting)
+105
+- [Something Missing?](#something-missing)
+106
+​
+
   - [Serving Apps with Client-Side Routing](#serving-apps-with-client-side-routing)
   - [Building for Relative Paths](#building-for-relative-paths)
   - [Azure](#azure)
@@ -2442,3 +2514,4 @@ In the future, we might start automatically compiling incompatible third-party m
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
+
