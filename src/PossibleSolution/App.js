@@ -1,8 +1,14 @@
-import React, { Component } from "react";
-import "../App.css";
-import logo from "../logo.svg";
+import React, { Component } from 'react';
+import './App.css';
+import logo from './logo.svg';
+/*Harry*/
+/*
+Use React and the data below to display a list of users alongside their favorite movies.
 
-const profiles = [
+For detailed instructions, refer to instructions.md.
+*/
+
+ const profiles = [
   {
     id: 1,
     userID: "1",
@@ -90,21 +96,19 @@ const movies = {
     name: "Get Out"
   }
 };
-
 class App extends Component {
+  
+  
+
   render() {
-    /*Return JSX*/
+    
     return (
-      /*
-      Without this '(', JS will automatically put a ';' after the `return`
-      keyword.
-      */
       <div>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">ReactND - Coding Practice</h1>
+        <header className='App-header'>
+          <img src={logo} className='App-logo' alt='logo' />
+          <h1 className='App-title'>ReactND - Coding Practice</h1>
         </header>
-        <ul>
+         <ul>
           <h2>Favorite Movies</h2>
 
           {/*
